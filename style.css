@@ -1,0 +1,150 @@
+body{
+  background:#0c2c77;
+  color:black;
+  font-family:Arial;
+}
+nav{
+  background:#07132c;
+  padding:15px;
+}
+
+nav a{
+  color:white;
+  margin-right:15px;
+  text-decoration:none;
+}
+
+nav a:hover{
+  color:#60a5fa;
+}
+
+.container{
+  width:90%;
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+.card{
+  background:white;
+  padding:25px;
+  margin-top:30px;
+  border-radius:10px;
+}
+.feature, .stats, .steps{
+  margin-top: 40px;
+  text-align: center;
+}
+.feature-box, .stats-box, .steps-box{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card, .stat-card, .step{
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 150px;
+}
+
+.stat-card{
+  color: #fff;
+}
+.steps{
+  color: #fff;
+}
+
+footer{
+  margin-top: 40px;
+  text-align: center;
+  padding: 15px;
+  background: #fff;
+}
+
+.about-skills, .about-goals{
+  background:white;
+  color:black;
+  margin-top:25px;
+  padding:20px;
+  border-radius:10px;
+}
+
+.skill-box{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+
+.skill{
+  background:#f0f0f0;
+  padding:10px 15px;
+  border-radius:4px;
+}
+
+.contact-info{
+  background:white;
+  color:black;
+  margin-top:20px;
+  padding:20px;
+  border-radius:10px;
+}
+
+.social-links{
+  margin-top:15px;
+  display:flex;
+  gap:10px;
+}
+
+.social-links a{
+  background:#1e90ff;
+  color:white;
+  padding:8px 15px;
+  border-radius:6px;
+  text-decoration:none;
+}
+
+input, textarea{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+  background:#1f2937;
+  border:none;
+  color:white;
+}
+
+h2 { text-align: center;
+    color: white;
+
+  }
+    input, button {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0;
+    }
+    button {
+      background: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover { background: #0056b3; }
+
+    .error { color: red; font-size: 14px; }
+
+    ul { list-style: none; padding: 0; }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      background: #eee;
+      padding: 6px;
+      margin: 4px 0;
+
+    }
+    
+    .total { 
+        font-weight: bold; margin-top: 10px; }
